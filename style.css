@@ -1,0 +1,54 @@
+* {
+    background-color: #1f2937;
+}
+
+
+
+.title {
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 90px;
+    margin-right: 48px;
+}
+
+.hero {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.sub-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.link{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+
+
+/* start of flexing */
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    display: flex;
+    
+}
+.header .link {
+    display: flex;
+    gap: 20px;
+}
+
+
